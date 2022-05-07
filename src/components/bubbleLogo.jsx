@@ -29,7 +29,7 @@ const P = styled.p`
 `
 function BubbleLogo({onPress}) {
   return ( <Container onClick={onPress}>
-    <img src={galaxy} ></img>
+    <img src={galaxy} /> 
   </Container> );
 }
 
