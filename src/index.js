@@ -8,6 +8,8 @@ import Nav from './components/Nav';
 import GuestList from './typescripts/GuestList';
 import UserSearch from './typescripts/UserSearch';
 import EventComponent from './events/EventComponent'
+import TodoContain from './components/TodoContain';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<>
   <Nav/>
@@ -16,5 +18,7 @@ root.render(<>
   <GuestList/>
   <hr/>
   <UserSearch/>
+  <hr/>
+  <TodoContain/>
   </>
 );
